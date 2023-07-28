@@ -1,0 +1,31 @@
+/* MOBILE VIEW */ 
+
+@media only screen and (max-width: 768px) {
+
+/* CUMMON STYLES */
+
+.no-d-mobile{ display: none !important; }
+.d-mobile{ display: block !important; }
+.img{ width: 100%; }
+
+/* TEXT */
+h1.h1{
+	font-size: 42px;
+	line-height: 50px;
+}
+h2.h2{ font-size: 26px; }
+p.p-regular{
+	margin: auto;
+	margin-bottom: 12px;
+}
+
+
+/* ELEMENT STYLES */
+
+.about-karine{ text-align: justify; }
+section.p-5, div.p-5{ padding: 20px !important; }
+
+.box-white{ padding: 16px !important; }
+.box-white .p-regular{ font-size: 13px; }
+
+}

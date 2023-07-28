@@ -1,0 +1,199 @@
+/* CUMMON STYLES */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');
+
+*{ text-decoration: none !important; }
+body{
+	font-family: 'Roboto', sans-serif !important;
+	margin: 0;
+	padding: 0;
+}
+
+.p-relative{ position: relative; }
+
+
+/* FLEX AND GRID */
+.grid{ display: grid; }
+.flex{ display: flex; }
+.flex-wrap{ flex-wrap: wrap; }
+.vertical-center{ align-items: center; }
+.horizontal-center{ justify-content: center; }
+.all-center{ justify-content: center; align-items: center; }
+
+.justify-between{ justify-content: space-between; }
+.justify-evenly{ justify-content: space-evenly; }
+.justify-end{ justify-content: flex-end; }
+
+.bg-black{ background-color: #000 !important; }
+
+.line{
+	width: 90px;
+	height: 3px;
+	border-radius: 1.5px;
+	background: #FFFFFF;
+}
+
+.m-5px{ margin-top: 5px; margin-bottom: 5px; }
+
+.d-mobile{ display: none; }
+
+.text{ color: white; }
+.text.big{ font-size: 28px; line-height: 33px; }
+.text.small{ font-size: 14px; line-height: 16px; }
+.text-yellow{ color: #FFD600 !important; }
+
+/* TEXT  */
+.h1, .h2, .h3, .h4, .p-regular, .p-bold{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+h1.h1{
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 56px;
+}
+h2.h2{
+	font-size: 28px;
+	line-height: 33px;
+}
+h3.h3{
+	font-size: 22px;
+	line-height: 26px;
+}
+h4.h4{
+	font-style: italic;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+}
+p.p-regular{
+	font-size: 14px;
+	line-height: 16px;
+}
+p.p-bold{
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+}
+.black{ color: black !important; }
+.bold{ font-weight: bold !important; }
+
+/* MARGIN AND PADDING */
+.no-margin{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+.m-10{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.m-top-30{ margin-top: 30px; }
+.p-10{ padding: 10px; }
+.p-20{ padding: 20px !important; }
+.p-30{ padding: 30px !important; }
+.p-40{ padding: 40px !important; }
+.p-top-80{ padding-top: 80px; }
+.p-top-40{ padding-top: 40px; }
+.p-bot-40{ padding-bottom: 40px !important; } 
+
+/* ELEMENT STYLES */
+
+/* INPUTS */
+.input{
+	width: 240px;
+	outline: none;
+	padding: 14px 23px;
+	background: #FFFFFF;
+	border: 1px solid #FFD600;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	color: #545454;
+	opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ color: #545454; }
+::-ms-input-placeholder { /* Microsoft Edge */ color: #545454; }
+
+/* BUTTONS */
+.button{
+	padding: 25px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	transition: .6s;
+	font-weight: bold;
+	color: white;
+}
+
+.button.wpp p.p-bold, .button.telegram p.p-bold{
+	color: #fff;
+	margin: 0 !important;
+}
+.fa-whatsapp, .fa-telegram-plane{
+	color: white;
+	font-size: 26px;
+	margin-right: 15px;
+}
+
+.button.wpp, .button.telegram{
+	padding: 15px;
+	font-size: 14px;
+	line-height: 16px;
+	flex-grow: 1;
+}
+.button.wpp{ background: #329330; }
+.button.wpp:hover{ background: #1F711D; }
+
+.button.telegram{ background: #26A5E4; }
+.button.telegram:hover{ background: #1E85B8; }
+
+.button.gray{
+	width: 129px;
+	padding: 6px 25px;
+	background: #C4C4C4;
+	color: black !important;
+	border-radius: 32px;
+
+	font-size: 10.7584px;
+	line-height: 13px;
+}
+
+.button.main{
+	padding: 14px 23px;
+	border-radius: 5px;
+	background: #FFD600;
+	color: black !important;
+
+	font-size: 16px;
+	line-height: 19px;
+}
+.button.main:hover{ background: #FF9900; }
+
+.box{
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+}
+.box-white{
+	border-radius: 5px; 
+	background-color: white;
+	margin: 20px 0px;
+}
+
+.circle-gray{
+	position: absolute;
+	width: 396px;
+	height: 396px;
+	border-radius: 198px;
+	background: #616161;
+}
+
+.about-karine{ width: 270px; margin: 5px; }
